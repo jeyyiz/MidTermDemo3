@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-clf_model = joblib.load('artifacts/classifier_pipeline.pkl')
-reg_model = joblib.load('artifacts/regressor_pipeline.pkl')
+clf_model = joblib.load('classifier_pipeline.pkl')
+reg_model = joblib.load('regressor_pipeline.pkl')
 
 st.set_page_config(page_title="Student Placement Prediction", layout="wide")
 
